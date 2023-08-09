@@ -1,4 +1,4 @@
-import { Brand, BrandWithoutSize } from "@mindplanr/ui";
+import { BrandWithoutSize } from "@mindplanr/ui";
 import {Inter} from "next/font/google";
 import {cn} from "@mindplanr/utils"
 
