@@ -4,15 +4,40 @@
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "lint:fix": "turbo run lint:fix",
+    "format:check": "prettier --check",
+    "format:write": "prettier --write",
+    "prepare": "husky install",
+    "start": "turbo run start",
+    "typecheck": "turbo run typecheck"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.7.0",
+    "@commitlint/config-conventional": "^17.7.0",
+    "@ianvs/prettier-plugin-sort-imports": "^4.1.0",
+    "@mindplanr/tsconfig": "workspace:^",
+    "@types/eslint": "^8.44.2",
+    "@types/node": "^20.4.9",
+    "del-cli": "^5.0.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.3",
     "@turbo/gen": "^1.9.7",
     "eslint": "^7.32.0",
-    "eslint-config-custom": "workspace:*",
-    "prettier": "^2.5.1",
-    "turbo": "latest"
+    "@mindplanr/eslint": "workspace:*",
+    "prettier": "^3.0.1",
+    "prettier-plugin-tailwindcss": "^0.4.1",
+    "prettier-plugin-packagejson": "^2.4.5",
+    "turbo": "latest",
+    "typescript": "^5.1.6"
+  },
+  "engines": {
+    "node": ">=18.15.0",
+    "pnpm": ">=8.6.10"
+  },
+  "volta": {
+    "node": "18.15.0",
+    "npm": "8.6.0"
   },
   "packageManager": "pnpm@8.6.10",
-  "name": "Mindplanr"
+  "name": "mindplanr"
 }

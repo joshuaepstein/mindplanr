@@ -1,0 +1,10 @@
+{
+    "extends": "@mindplanr/tsconfig/base.json",
+    "compilerOptions": {
+        "outDir": "dist"
+    },
+    "include": ["**/*.ts", "**/*.d.cts", ".eslintrc.cjs"],
+    "exclude": [
+        "dist"
+    ]
+}

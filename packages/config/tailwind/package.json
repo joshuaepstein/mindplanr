@@ -1,0 +1,44 @@
+{
+  "name": "@mindplanr/tailwind",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Mindplanr's Tailwind CSS preset",
+  "author": "Joshua Epstein",
+  "type": "module",
+  "exports": {
+    ".": "./dist/tailwind.config.js",
+    "./postcss.config.cjs": "./postcss.config.cjs"
+  },
+  "main": "./dist/tailwind.config.js",
+  "typesVersions": {
+    "*": {
+      ".": [
+        "./dist/tailwind.config.d.ts"
+      ],
+      "./postcss.config.cjs": [
+        "./postcss.config.d.cts"
+      ]
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "lint": "eslint . --max-warnings 0",
+    "lint:fix": "pnpm run lint --fix",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.3.3"
+  },
+  "devDependencies": {
+    "@mindplanr/tsconfig": "workspace:^",
+    "@savvywombat/tailwindcss-grid-areas": "^3.1.0",
+    "autoprefixer": "^10.4.14",
+    "tailwindcss-animate": "^1.0.6",
+    "@tailwindcss/forms": "^0.5.4"
+  },
+  "volta": {
+    "extends": "../../../package.json"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "@mindplanr/eslint",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Mindplanr's ESLint configuration",
+  "author": "Joshua Epstein",
+  "files": [
+    "./base.js",
+    "./next.js",
+    "./react.js"
+  ],
+  "scripts": {
+    "lint": "eslint . --max-warnings 0",
+    "lint:fix": "pnpm run lint --fix"
+  },
+  "devDependencies": {
+    "@next/eslint-plugin-next": "^13.4.13",
+    "@mindplanr/tsconfig": "workspace:^",
+    "@typescript-eslint/eslint-plugin": "^6.3.0",
+    "@typescript-eslint/parser": "^6.3.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.33.1",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "volta": {
+    "extends": "../../../package.json"
+  }
+}
