@@ -24,5 +24,3 @@ export const cachedConn = process.env['DATABASE_URL']
       },
     })
   : null;
-
-  export const getLinkViaEdge = ()
