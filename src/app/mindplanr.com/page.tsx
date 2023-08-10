@@ -8,12 +8,7 @@ export default function Page() {
       <div className="flex h-screen w-full items-center justify-center overflow-hidden">
         <div className="flex flex-col items-center justify-center space-y-3">
           <BrandWithoutSize className="w-[80vw] text-primary xs:w-[300px] md:w-[600px]" />
-          <h3
-            className="text-xl tracking-wide md:text-2xl lg:text-4xl"
-            style={{
-              fontFamily: 'Riffic Free',
-            }}
-          >
+          <h3 className="font-riffic text-xl tracking-wide md:text-2xl lg:text-4xl">
             coming soon.
           </h3>
         </div>

@@ -22,6 +22,7 @@ const config = {
         ],
         stock: fontFamily.sans,
         mono: ['JetBrains Mono', ...fontFamily.mono],
+        riffic: ['var(--font-riffic-free)', ...fontFamily.sans],
       },
       colors: {
         primary: {
