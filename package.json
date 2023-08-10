@@ -67,7 +67,7 @@
     "date-fns": "^2.30.0",
     "focus-trap-react": "^10.2.1",
     "framer-motion": "^10.15.1",
-    "lucide-react": "^0.265.0",
+    "lucide-react": "0.263.1",
     "nanoid": "^4.0.2",
     "next": "^13.4.13",
     "next-auth": "^4.22.5",
