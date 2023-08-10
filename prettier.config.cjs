@@ -9,7 +9,8 @@ const config = {
     plugins: [
         '@ianvs/prettier-plugin-sort-imports',
         "prettier-plugin-tailwindcss",
-        // require.resolve("prettier-plugin-packagejson")
+        "prettier-plugin-packagejson",
+        "prettier-plugin-organize-imports"
     ],
     importOrder: [
         '^react',
