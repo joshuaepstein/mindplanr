@@ -1,3 +1,4 @@
+import { Inter } from 'next/font/google';
 import localFont from 'next/font/local';
 
 export const rifficFree = localFont({
@@ -6,4 +7,9 @@ export const rifficFree = localFont({
   variable: '--font-riffic-free',
   style: 'normal',
   display: 'swap',
+});
+
+export const inter = Inter({
+  variable: '--font-inter',
+  subsets: ['latin'],
 });
