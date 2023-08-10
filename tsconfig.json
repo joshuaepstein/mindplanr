@@ -1,7 +1,33 @@
 {
-    "extends": "@mindplanr/tsconfig/base.json",
-    "compilerOptions": {
-        "noEmit": true
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "target": "ESNext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@mindplanr/ui/*": ["./src/components/ui/*"],
+      "@mindplanr/utils/*": ["./src/lib/*"],
+      "@mindplanr/types/*": ["./src/types/*"],
+      "@/*": ["./src/*"]
     },
-    "include": ["**/*.cjs", "**/*.js", ".eslintrc.cjs"]
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "strictNullChecks": true
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
 }

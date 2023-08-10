@@ -1,1 +1,0 @@
-module.exports = require("@mindplanr/tailwind/postcss.config.cjs")
