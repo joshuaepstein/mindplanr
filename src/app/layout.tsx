@@ -24,7 +24,7 @@ export default function RootLayout({
       <head />
       <body>
         {children}
-        <Analytics />
+        <Analytics debug={false} />
       </body>
     </html>
   );
