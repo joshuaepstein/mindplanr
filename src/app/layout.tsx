@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={cn(rifficFree.className, 'overflow-hidden')}>
+    <html lang="en" className={cn('overflow-hidden')}>
       <head />
       <body>
         {children}

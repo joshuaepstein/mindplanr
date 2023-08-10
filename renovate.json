@@ -3,14 +3,7 @@
     "extends": [
         "config:base"
     ],
-    "packageRules": [
-        {
-            "matchPackagePatterns": [
-                "^@mindplanr/"
-            ],
-            "enabled": false
-        }
-    ],
+    "packageRules": [],
     "updateInternalDeps": true,
     "rangeStrategy": "bump"
 }
