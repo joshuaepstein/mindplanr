@@ -1,5 +1,6 @@
 import '@/styles/globals.css';
 
+import { Analytics } from '@vercel/analytics/react';
 import localFont from 'next/font/local';
 import React from 'react';
 
@@ -21,7 +22,10 @@ export default function RootLayout({
   return (
     <html lang="en" className={cn(rifficFree.className, 'overflow-hidden')}>
       <head />
-      <body>{children}</body>
+      <body>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
