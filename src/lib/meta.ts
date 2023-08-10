@@ -32,6 +32,13 @@ export function constructMetadata({
         },
       ],
     },
+    twitter: {
+      creator: '@JoshuaEpstein17',
+      card: 'summary_large_image',
+      images: [image],
+      title,
+      description,
+    },
     metadataBase: new URL('https://mindplanr.com/'),
     themeColor: '#ffffff',
   };
