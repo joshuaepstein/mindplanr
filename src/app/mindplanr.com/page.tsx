@@ -1,8 +1,12 @@
 import { Metadata } from 'next';
 
 import { BrandWithoutSize } from '@mindplanr/ui/brand';
+// import {testingImage} from "@/lib/upload-thing";
 
-export default function Page() {
+export default async function Page() {
+  // const url = await testingImage;
+  // console.log(url)
+
   return (
     <>
       <div className="flex h-screen w-full items-center justify-center overflow-hidden">
@@ -17,6 +21,7 @@ export default function Page() {
           className="absolute inset-x-0 -z-10 w-full stroke-primary-50 stroke-[3] text-white"
         />
       </div>
+
     </>
   );
 }
