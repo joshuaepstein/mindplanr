@@ -20,7 +20,6 @@ export const config = {
 const appRoutes = {
   static: '/_static',
 };
-
 export default async function middleware(req: NextRequest, ev: NextFetchEvent) {
   const { domain, path, key } = parse(req);
 

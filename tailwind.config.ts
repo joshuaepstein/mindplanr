@@ -23,6 +23,8 @@ const config = {
         stock: fontFamily.sans,
         mono: ['JetBrains Mono', ...fontFamily.mono],
         riffic: ['var(--font-riffic-free)', ...fontFamily.sans],
+        default: ['var(--font-inter)', ...fontFamily.sans],
+        display: ['var(--font-satoshi)', ...fontFamily.sans],
       },
       colors: {
         primary: {
