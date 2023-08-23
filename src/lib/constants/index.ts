@@ -67,6 +67,23 @@ export const HOME_HOSTNAMES_DEV = new Set([
   '192.168.1.29:3000', // Mac Local IP to access on mobile/pc
 ]);
 
+export const SHOW_BACKGROUND_SEGMENTS = new Set([
+  'metatags',
+  'pricing',
+  'help',
+  'blog',
+  '(blog-post)',
+  'login',
+  'register',
+]);
+
+export const APP_DOMAIN =
+  process.env.NEXT_PUBLIC_VERCEL_ENV === 'production'
+    ? 'https://app.mindplanr.com'
+    : process.env.NEXT_PUBLIC_VERCEL_ENV === 'preview'
+    ? 'https://preview.mindplanr.com'
+    : 'http://app.localhost:3000';
+
 export const FAVICON_FOLDER = '/_static/favicons';
 export const GOOGLE_FAVICON_URL =
   'https://www.google.com/s2/favicons?sz=64&domain_url=';
