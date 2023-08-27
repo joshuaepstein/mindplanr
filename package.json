@@ -86,7 +86,7 @@
     "tailwind-merge": "^1.14.0",
     "tailwindcss-animate": "^1.0.6",
     "use-debounce": "^9.0.4",
-    "vaul": "^0.2.3",
+    "vaul": "^0.4.1",
     "zod": "^3.22.2",
     "zustand": "^4.4.1"
   },
