@@ -12,7 +12,6 @@
     "typecheck": "tsc --noEmit",
     "format:write": "prettier --write \"**/*.{ts,tsx,mdx}\" --cache",
     "format:check": "prettier --check \"**/*.{ts,tsx,mdx}\" --cache",
-    "preinstall": "only-allow pnpm",
     "email:dev": "email dev -p 3001",
     "email:export": "email export",
     "generate": "drizzle-kit generate:pg"
