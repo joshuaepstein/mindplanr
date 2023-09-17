@@ -14,8 +14,7 @@ export default function Page() {
           </span>
         </h1>
         <h2 className="mt-5 text-gray-600 sm:text-lg">
-          Plan upcoming projects and manage your daily tasks with ease using
-          Mindplanr.
+          Plan your mind, achieve your goals - with Mindplanr
         </h2>
 
         <div className="mx-auto mt-10 flex max-w-fit space-x-4">

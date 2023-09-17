@@ -24,7 +24,7 @@ const config = {
         mono: ['JetBrains Mono', ...fontFamily.mono],
         riffic: ['var(--font-riffic-free)', ...fontFamily.sans],
         default: ['var(--font-inter)', ...fontFamily.sans],
-        display: ['var(--font-satoshi)', ...fontFamily.sans],
+        display: ['var(--font-inter)', ...fontFamily.sans],
       },
       colors: {
         primary: {
@@ -45,6 +45,7 @@ const config = {
       boxShadow: {
         glow: '0 0 4px rgb(0 0 0 / 0.1)',
         'glow-2': '0 0 50px rgb(0 0 0 / 1)',
+        small: '0px 0px 5px 0px rgba(0, 0, 0, 0.03)',
       },
       opacity: {
         1: '0.01',

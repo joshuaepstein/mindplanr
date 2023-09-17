@@ -1,0 +1,22 @@
+import { Button } from '@mindplanr/ui/button';
+import { P } from '@mindplanr/ui/typography';
+
+import { Icon } from '@mindplanr/ui/Icon';
+
+export const SideMenuModules = () => {
+  return (
+    <div className="mt-4">
+      <div className="flex min-w-[180px] items-center justify-between px-4">
+        <P className="text-xs">Modules</P>
+        <Button type="button" size="icon" className="p-2">
+          <Icon name="plus" size={16} />
+        </Button>
+      </div>
+      <div>
+        <P className="line-clamp-2 overflow-hidden px-4 pt-1 text-xs leading-4 opacity-50">
+          Create modules to organize your study material.
+        </P>
+      </div>
+    </div>
+  );
+};
