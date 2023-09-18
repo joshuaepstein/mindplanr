@@ -1,17 +1,20 @@
 'use client';
-
 import { motion } from 'framer-motion';
 import type { FC, PropsWithChildren } from 'react';
-import { useState } from 'react';
 
 import { Brand } from '@mindplanr/ui/brand';
+import useLocalStorage from '@mindplanr/utils/hooks/use-local-storage';
 import { DashboardNavbar } from './Navbar';
 import { SideMenuLink } from './SideMenuLink';
 import { SideMenuModules } from './SideMenuModules';
 import { pageLinks } from './static-data';
 
 const DashboardLayout: FC<PropsWithChildren> = ({ children }) => {
-  const [isSideMenuExpanded, setSideMenuExpanded] = useState(true);
+  // const [isSideMenuExpanded, setSideMenuExpanded] = useState(true);
+  const [isSideMenuExpanded, setSideMenuExpanded] = useLocalStorage(
+    'isSideMenuExpanded',
+    true,
+  );
 
   return (
     <div className="flex h-screen gap-6 py-6 pl-6">
@@ -45,7 +48,7 @@ const DashboardLayout: FC<PropsWithChildren> = ({ children }) => {
       <div className="dark:bg-zinc-900 z-50 flex flex-1 flex-col overflow-scroll rounded-l-2xl border border-zinc-200 bg-zinc-50 px-6 py-4 shadow-small dark:border-zinc-800">
         {/* Top Navigation Bar */}
         <DashboardNavbar
-          setSideMenuExpanded={setSideMenuExpanded}
+          setSideMenuExpanded={() => setSideMenuExpanded(!isSideMenuExpanded)}
           isSideMenuExpanded={isSideMenuExpanded}
         />
 

@@ -21,7 +21,7 @@ export const SideMenuLink: FC<SideMenuLinkProps> = ({
   isSideMenuExpanded = true,
 }) => (
   <li>
-    <Button asChild className="w-full">
+    <Button asChild className="w-full" variant="ghost2">
       <ActiveLink href={href} activeClassName="text-zinc-900 dark:text-zinc-50">
         <Icon name={icon} className="min-w-max" />
         <motion.span

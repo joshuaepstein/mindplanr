@@ -21,6 +21,7 @@ export const DashboardNavbar: FC<NavbarProps> = ({
         <Button
           type="button"
           size="icon"
+          variant={'ghost'}
           onClick={() => {
             setSideMenuExpanded((prev) => !prev);
           }}
@@ -32,7 +33,7 @@ export const DashboardNavbar: FC<NavbarProps> = ({
       </div>
 
       <div className="flex flex-row-reverse items-center gap-4">
-        <Button type="button" size="icon">
+        <Button type="button" size="icon" variant="ghost2">
           <Icon name="bell-ring" />
         </Button>
       </div>
