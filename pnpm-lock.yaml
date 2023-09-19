@@ -216,8 +216,8 @@ dependencies:
     specifier: ^1.1.0
     version: 1.1.0
   sonner:
-    specifier: ^0.7.3
-    version: 0.7.3(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^0.7.4
+    version: 0.7.4(react-dom@18.2.0)(react@18.2.0)
   swr:
     specifier: ^2.2.2
     version: 2.2.2(react@18.2.0)
@@ -7540,8 +7540,8 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /sonner@0.7.3(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-DIiD/JiMV1WI0A9uaPjhf/U6PxliZisVx8xWC87FWCyHhKjnd/8S9GMJTfgyhHzp/ABqUpu0nD4amDxFmw9xiw==}
+  /sonner@0.7.4(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-xRVYOCTAxJge7hRGSwu7q+gIS9B2csuOZw8yNEaXe/qlncft5a7UmkttGNb4LOGu79rAB/GJ6JQbUMpJNf51Nw==}
     peerDependencies:
       react: ^18.0.0
       react-dom: ^18.0.0
