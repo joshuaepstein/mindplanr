@@ -5,16 +5,16 @@ import { GitHubLogoIcon } from '@radix-ui/react-icons';
 export default function Page() {
   return (
     <>
-      <div className="mx-auto mb-10 mt-12 flex max-w-md flex-col justify-center px-2.5 text-center sm:max-w-lg sm:px-0 lg:min-h-[700px]">
-        <h1 className="mt-5 font-display text-4xl font-extrabold leading-[1.15] text-black sm:text-6xl sm:leading-[1.15]">
+      <div className="mx-auto mb-10 mt-12 flex max-w-lg flex-col justify-center px-2.5 text-center sm:max-w-xl sm:px-0 lg:min-h-[700px]">
+        <h1 className="mt-5 font-display text-4xl font-semibold leading-[1.15] text-black sm:text-6xl sm:leading-[1.15]">
           Organisation with
           <br />
-          <span className="bg-gradient-to-br from-primary via-purple-500 to-primary bg-clip-text text-transparent">
+          <span className="bg-gradient-to-br from-primary via-purple-500 to-primary bg-clip-text font-bold text-transparent">
             Superpowers
           </span>
         </h1>
-        <h2 className="mt-5 text-gray-600 sm:text-lg">
-          Plan your mind, achieve your goals - with Mindplanr
+        <h2 className="mt-3 text-zinc-600">
+          Plan your mind, achieve your goals - with Mindplanr.
         </h2>
 
         <div className="mx-auto mt-10 flex max-w-fit space-x-4">
@@ -26,7 +26,7 @@ export default function Page() {
           </a>
           <a
             className="group flex items-center justify-center space-x-2 rounded-full border border-gray-300 bg-white px-5 py-2 shadow-lg transition-all duration-200 hover:border-primary hover:bg-primary hover:text-white"
-            href="https://mindplanr.com/github"
+            href={`${APP_DOMAIN}/github`}
             target="_blank"
             rel="noreferrer"
           >
