@@ -112,16 +112,16 @@ dependencies:
     version: 1.2.8(react@18.2.0)
   '@supabase/auth-helpers-nextjs':
     specifier: ^0.8.1
-    version: 0.8.1(@supabase/supabase-js@2.33.2)
+    version: 0.8.1(@supabase/supabase-js@2.36.0)
   '@supabase/auth-ui-react':
     specifier: ^0.4.5
-    version: 0.4.5(@supabase/supabase-js@2.33.2)
+    version: 0.4.5(@supabase/supabase-js@2.36.0)
   '@supabase/auth-ui-shared':
     specifier: ^0.1.7
-    version: 0.1.7(@supabase/supabase-js@2.33.2)
+    version: 0.1.7(@supabase/supabase-js@2.36.0)
   '@supabase/supabase-js':
-    specifier: ^2.33.2
-    version: 2.33.2
+    specifier: ^2.36.0
+    version: 2.36.0
   '@t3-oss/env-nextjs':
     specifier: ^0.6.1
     version: 0.6.1(typescript@5.2.2)(zod@3.22.2)
@@ -3046,44 +3046,44 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@supabase/auth-helpers-nextjs@0.8.1(@supabase/supabase-js@2.33.2):
+  /@supabase/auth-helpers-nextjs@0.8.1(@supabase/supabase-js@2.36.0):
     resolution: {integrity: sha512-ZO/UGDE9oaVXwPL4gpzGu2NpPwfKOgxTUnuK6no51So8Ah9BUuUUsTj+BdZlx7jJoZEIAkHWdRIx65WuQgWAiQ==}
     peerDependencies:
       '@supabase/supabase-js': ^2.19.0
     dependencies:
-      '@supabase/auth-helpers-shared': 0.5.0(@supabase/supabase-js@2.33.2)
-      '@supabase/supabase-js': 2.33.2
+      '@supabase/auth-helpers-shared': 0.5.0(@supabase/supabase-js@2.36.0)
+      '@supabase/supabase-js': 2.36.0
       set-cookie-parser: 2.6.0
     dev: false
 
-  /@supabase/auth-helpers-shared@0.5.0(@supabase/supabase-js@2.33.2):
+  /@supabase/auth-helpers-shared@0.5.0(@supabase/supabase-js@2.36.0):
     resolution: {integrity: sha512-kioUeYDBZ89cfqOTZFOLEFIO7kGczL0XJYZdVv/bKt5efXqhiY14NbzgGWiMvvD9o9Iluo0+YEV2tG3ZZ5W06A==}
     peerDependencies:
       '@supabase/supabase-js': ^2.19.0
     dependencies:
-      '@supabase/supabase-js': 2.33.2
+      '@supabase/supabase-js': 2.36.0
       jose: 4.14.6
     dev: false
 
-  /@supabase/auth-ui-react@0.4.5(@supabase/supabase-js@2.33.2):
+  /@supabase/auth-ui-react@0.4.5(@supabase/supabase-js@2.36.0):
     resolution: {integrity: sha512-p7mZoD/iJKP7KorQ4F/RK4NfWDpXzop+LhMuHxkO5BahD+VpGIxwtykuXfZ0g7rijaKnA1BimdCBTCrV5EWTag==}
     peerDependencies:
       '@supabase/supabase-js': ^2.21.0
     dependencies:
       '@stitches/core': 1.2.8
-      '@supabase/auth-ui-shared': 0.1.7(@supabase/supabase-js@2.33.2)
-      '@supabase/supabase-js': 2.33.2
+      '@supabase/auth-ui-shared': 0.1.7(@supabase/supabase-js@2.36.0)
+      '@supabase/supabase-js': 2.36.0
       prop-types: 15.8.1
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@supabase/auth-ui-shared@0.1.7(@supabase/supabase-js@2.33.2):
+  /@supabase/auth-ui-shared@0.1.7(@supabase/supabase-js@2.36.0):
     resolution: {integrity: sha512-ueqyfCHVYX/ioehwL1ErH0+cZwiSzsIfZfhf326yJdDI0XExTKPV4lxPtWT1xx6c8A4FPPmT3kJKQaWs27pxCw==}
     peerDependencies:
       '@supabase/supabase-js': ^2.21.0
     dependencies:
-      '@supabase/supabase-js': 2.33.2
+      '@supabase/supabase-js': 2.36.0
     dev: false
 
   /@supabase/functions-js@2.1.5:
@@ -3092,8 +3092,8 @@ packages:
       '@supabase/node-fetch': 2.6.14
     dev: false
 
-  /@supabase/gotrue-js@2.52.0:
-    resolution: {integrity: sha512-UFCbydMYFn/LhPW08aeZ9sgFDA3kOQCjA2ieFj/sccye9m8Tv0pimMfnXh3A9TqBJ0/0utpkaGSad3XdpJ+Mbw==}
+  /@supabase/gotrue-js@2.54.0:
+    resolution: {integrity: sha512-JjtbchtPbpgK0O8NIMIvKLk7HHv0kd23L3UO5a398nczCcBkI0IvmbPtbS4Xs5AUIuJ+JHtV6siOZR1ha5EzQw==}
     dependencies:
       '@supabase/node-fetch': 2.6.14
     dev: false
@@ -3127,11 +3127,11 @@ packages:
       '@supabase/node-fetch': 2.6.14
     dev: false
 
-  /@supabase/supabase-js@2.33.2:
-    resolution: {integrity: sha512-r+xCaERasxI0fMqOTp4zwur200X6HCjif48WKIcWrZgtzdtyP6CsP6J3rwZWfR/mR5MN0qLdK0SGA0QCgxS3Nw==}
+  /@supabase/supabase-js@2.36.0:
+    resolution: {integrity: sha512-K9ze4BpQrOZsmYUvF2j9FfIkTfxR4K8GJx6F6DTOfJ8fZg4JSNjfzlGvhCVDwiV4w1NRrmEQ/F89THNt3eXXhg==}
     dependencies:
       '@supabase/functions-js': 2.1.5
-      '@supabase/gotrue-js': 2.52.0
+      '@supabase/gotrue-js': 2.54.0
       '@supabase/node-fetch': 2.6.14
       '@supabase/postgrest-js': 1.8.4
       '@supabase/realtime-js': 2.7.4

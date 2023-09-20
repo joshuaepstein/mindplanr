@@ -55,7 +55,7 @@
     "@supabase/auth-helpers-nextjs": "^0.8.1",
     "@supabase/auth-ui-react": "^0.4.5",
     "@supabase/auth-ui-shared": "^0.1.7",
-    "@supabase/supabase-js": "^2.33.2",
+    "@supabase/supabase-js": "^2.36.0",
     "@t3-oss/env-nextjs": "^0.6.1",
     "@tailwindcss/forms": "^0.5.6",
     "@tanstack/react-table": "^8.10.0",
