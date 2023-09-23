@@ -13,8 +13,11 @@ export default function Error({
     <div className="flex h-screen w-full items-center justify-center overflow-hidden">
       <div className="flex flex-col items-center justify-center space-y-3">
         <BrandWithoutSize className="w-[80vw] text-primary xs:w-[300px] md:w-[600px]" />
+        <h3 className="text-xl tracking-wide md:text-2xl lg:text-4xl">
+          coming soon.
+        </h3>
         <p className="mt-12 font-[inter] font-medium">
-          Oops! That page does not exist!
+          You&apos;ve tried to access a page which does not exist.
         </p>
       </div>
       <BrandWithoutSize

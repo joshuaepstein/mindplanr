@@ -18,8 +18,6 @@ const config = {
         '<TYPES>^[./]',
         '<THIRD_PARTY_MODULES>',
         '',
-        '@mindplanr/(.*)$',
-        '',
         '^@/(.*)$',
         '^[./]',
     ],

@@ -3,7 +3,7 @@
 export default function ChangelogsPage() {
   return (
     <>
-      <section className="relative grid border-b- border-gray-200 py-20 md:grid-cols-4">
+      <section className="relative grid border-b- border-zinc-200 py-20 md:grid-cols-4">
         {/* <p className="px-1.5 py-0.5 bg-zinc-50 border border-zinc-300 text-zinc-400 rounded-full font-medium w-max text-sm">
           CHANGELOG
         </p>
@@ -15,7 +15,7 @@ export default function ChangelogsPage() {
         </p> */}
         <div className="md:col-span-1" />
         <div className="mx-5 flex flex-col space-y-6 md:col-span-3 md:mx-0">
-          <h1 className="font-display text-4xl font-bold tracking-tight text-gray-800 md:text-5xl">
+          <h1 className="font-display text-4xl font-bold tracking-tight text-zinc-800 md:text-5xl">
             Changelog
           </h1>
           <p className="text-zinc-500">

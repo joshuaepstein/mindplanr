@@ -53,7 +53,9 @@ const DashboardLayout: FC<PropsWithChildren> = ({ children }) => {
         />
 
         {/* Page Content */}
-        <div className="flex h-full w-full overflow-scroll">{children}</div>
+        <div className="flex h-full w-full overflow-scroll px-3">
+          {children}
+        </div>
       </div>
     </div>
   );

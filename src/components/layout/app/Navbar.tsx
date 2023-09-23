@@ -16,7 +16,7 @@ export const DashboardNavbar: FC<NavbarProps> = ({
 }) => {
   const router = useRouter();
   return (
-    <nav className="flex items-center justify-between">
+    <nav className="flex items-center justify-between px-3">
       <div className="flex items-center gap-2">
         <Button
           type="button"
