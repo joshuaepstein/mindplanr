@@ -243,8 +243,8 @@ dependencies:
     specifier: ^9.0.4
     version: 9.0.4(react@18.2.0)
   vaul:
-    specifier: ^0.6.3
-    version: 0.6.3(@types/react-dom@18.2.7)(@types/react@18.2.22)(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^0.8.0
+    version: 0.8.0(@types/react-dom@18.2.7)(@types/react@18.2.22)(react-dom@18.2.0)(react@18.2.0)
   zod:
     specifier: ^3.22.2
     version: 3.22.2
@@ -8351,8 +8351,8 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: false
 
-  /vaul@0.6.3(@types/react-dom@18.2.7)(@types/react@18.2.22)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-6+SNHnARI/e27jfMJV1GjOK1Ko/35qd3Fn2dJlWTVTbeUK47c3KczOe00cgpu2TGZPzLfeCVeBIwUDZFTm4ZfA==}
+  /vaul@0.8.0(@types/react-dom@18.2.7)(@types/react@18.2.22)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-9nUU2jIObJvJZxeQU1oVr/syKo5XqbRoOMoTEt0hHlWify4QZFlqTh6QSN/yxoKzNrMeEQzxbc3XC/vkPLOIqw==}
     peerDependencies:
       react: ^16.8 || ^17.0 || ^18.0
       react-dom: ^16.8 || ^17.0 || ^18.0
