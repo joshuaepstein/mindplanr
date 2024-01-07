@@ -257,8 +257,8 @@ devDependencies:
     specifier: ^4.1.0
     version: 4.1.0(prettier@3.0.3)
   '@types/node':
-    specifier: ^20.6.3
-    version: 20.6.3
+    specifier: ^20.10.7
+    version: 20.10.7
   '@types/react':
     specifier: ^18.2.22
     version: 18.2.22
@@ -1068,7 +1068,7 @@ packages:
     dependencies:
       '@jest/fake-timers': 29.7.0
       '@jest/types': 29.6.3
-      '@types/node': 20.6.3
+      '@types/node': 20.10.7
       jest-mock: 29.7.0
     dev: false
 
@@ -1078,7 +1078,7 @@ packages:
     dependencies:
       '@jest/types': 29.6.3
       '@sinonjs/fake-timers': 10.3.0
-      '@types/node': 20.6.3
+      '@types/node': 20.10.7
       jest-message-util: 29.7.0
       jest-mock: 29.7.0
       jest-util: 29.7.0
@@ -1098,7 +1098,7 @@ packages:
       '@jest/schemas': 29.6.3
       '@types/istanbul-lib-coverage': 2.0.4
       '@types/istanbul-reports': 3.0.1
-      '@types/node': 20.6.3
+      '@types/node': 20.10.7
       '@types/yargs': 17.0.24
       chalk: 4.1.2
     dev: false
@@ -3262,7 +3262,7 @@ packages:
   /@types/jsdom@20.0.1:
     resolution: {integrity: sha512-d0r18sZPmMQr1eG35u12FZfhIXNrnsPU/g5wvRKCUf/tOGilKKwYMYGqh33BNR6ba+2gkHw1EUiHoN3mn7E5IQ==}
     dependencies:
-      '@types/node': 20.6.3
+      '@types/node': 20.10.7
       '@types/tough-cookie': 4.0.3
       parse5: 7.1.2
     dev: false
@@ -3275,8 +3275,10 @@ packages:
     resolution: {integrity: sha512-J8xLz7q2OFulZ2cyGTLE1TbbZcjpno7FaN6zdJNrgAdrJ+DZzh/uFR6YrTb4C+nXakvud8Q4+rbhoIWlYQbUFQ==}
     dev: false
 
-  /@types/node@20.6.3:
-    resolution: {integrity: sha512-HksnYH4Ljr4VQgEy2lTStbCKv/P590tmPe5HqOnv9Gprffgv5WXAY+Y5Gqniu0GGqeTCUdBnzC3QSrzPkBkAMA==}
+  /@types/node@20.10.7:
+    resolution: {integrity: sha512-fRbIKb8C/Y2lXxB5eVMj4IU7xpdox0Lh8bUPEdtLysaylsml1hOOx1+STloRs/B9nf7C6kPRmmg/V7aQW7usNg==}
+    dependencies:
+      undici-types: 5.26.5
 
   /@types/normalize-package-data@2.4.1:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
@@ -3285,7 +3287,7 @@ packages:
   /@types/pg@8.6.6:
     resolution: {integrity: sha512-O2xNmXebtwVekJDD+02udOncjVcMZQuTEQEMpKJ0ZRf5E7/9JJX3izhKUcUifBkyKpljyUM6BTgy2trmviKlpw==}
     dependencies:
-      '@types/node': 20.6.3
+      '@types/node': 20.10.7
       pg-protocol: 1.6.0
       pg-types: 2.2.0
     dev: false
@@ -3323,7 +3325,7 @@ packages:
   /@types/websocket@1.0.6:
     resolution: {integrity: sha512-JXkliwz93B2cMWOI1ukElQBPN88vMg3CruvW4KVSKpflt3NyNCJImnhIuB/f97rG7kakqRJGFiwkA895Kn02Dg==}
     dependencies:
-      '@types/node': 20.6.3
+      '@types/node': 20.10.7
     dev: false
 
   /@types/yargs-parser@21.0.0:
@@ -5926,7 +5928,7 @@ packages:
       '@jest/fake-timers': 29.7.0
       '@jest/types': 29.6.3
       '@types/jsdom': 20.0.1
-      '@types/node': 20.6.3
+      '@types/node': 20.10.7
       jest-mock: 29.7.0
       jest-util: 29.7.0
       jsdom: 20.0.3
@@ -5956,7 +5958,7 @@ packages:
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
       '@jest/types': 29.6.3
-      '@types/node': 20.6.3
+      '@types/node': 20.10.7
       jest-util: 29.7.0
     dev: false
 
@@ -5965,7 +5967,7 @@ packages:
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
       '@jest/types': 29.6.3
-      '@types/node': 20.6.3
+      '@types/node': 20.10.7
       chalk: 4.1.2
       ci-info: 3.8.0
       graceful-fs: 4.2.11
@@ -8203,6 +8205,9 @@ packages:
       has-symbols: 1.0.3
       which-boxed-primitive: 1.0.2
     dev: true
+
+  /undici-types@5.26.5:
+    resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
 
   /undici@5.24.0:
     resolution: {integrity: sha512-OKlckxBjFl0oXxcj9FU6oB8fDAaiRUq+D8jrFWGmOfI/gIyjk/IeS75LMzgYKUaeHzLUcYvf9bbJGSrUwTfwwQ==}
